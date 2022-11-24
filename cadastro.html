@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"/>
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cadastro</h1>
+      <form>
+        <div class="field"  class="campo">
+          <strong>Nome</strong>
+          <input type="text" name="name" id="name" style="background: #fdf7fa;" placeholder="Seu Bento" />
+        </div>
+        <div class="field error">
+          <strong>E-mail</strong>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            style="background: #fdf7fa;"
+            placeholder="douglas.pujol@outlook.com"
+          />
+        </div>
+        <div class="field">
+          <strong>Senha</strong>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            style="background: #fdf7fa;"
+            placeholder="*******"
+          />
+        </div>
+        <div class="field">
+          <strong>Digite sua senha novamente</strong>
+          <input
+            type="password"
+            name="repeat-password"
+            id="repeat-password"
+            style="background: #fdf7fa;"
+            placeholder="*******"
+          />
+        </div>
+      </form>
+      <div class="btn-actions">
+        <a type="submit" style="color:blueviolet;" href="index pg.html"><strong><h2>Criar Conta</h2></strong></a>
+        <a href="login.html"><h5>voltar</h5></a>
+      </div>
+    </main>
+  </body>
+</html>
